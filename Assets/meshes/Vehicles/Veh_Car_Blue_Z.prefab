@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3383734}
   - component: {fileID: 2382754}
   - component: {fileID: 2720045576004100963}
+  - component: {fileID: 1144484705}
   m_Layer: 0
   m_Name: Wheel_rl
   m_TagString: Untagged
@@ -96,6 +97,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 6df34ee591500634282ce8431bcb6976, type: 3}
+--- !u!114 &1144484705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 1, y: 0, z: 0}
 --- !u!1 &142286
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +122,7 @@ GameObject:
   - component: {fileID: 3395236}
   - component: {fileID: 2394562}
   - component: {fileID: 3682553966762660890}
+  - component: {fileID: 1144484707}
   m_Layer: 0
   m_Name: Wheel_fl
   m_TagString: Untagged
@@ -192,6 +207,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 6df34ee591500634282ce8431bcb6976, type: 3}
+--- !u!114 &1144484707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 1, y: 0, z: 0}
 --- !u!1 &191814
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +232,7 @@ GameObject:
   - component: {fileID: 3332162}
   - component: {fileID: 2350806}
   - component: {fileID: 8147241306112228353}
+  - component: {fileID: 1144484706}
   m_Layer: 0
   m_Name: Wheel_fr
   m_TagString: Untagged
@@ -288,6 +317,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 6df34ee591500634282ce8431bcb6976, type: 3}
+--- !u!114 &1144484706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 1, y: 0, z: 0}
 --- !u!1 &192296
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +342,7 @@ GameObject:
   - component: {fileID: 3341378}
   - component: {fileID: 2319836}
   - component: {fileID: 5618744408507249295}
+  - component: {fileID: 1144484704}
   m_Layer: 0
   m_Name: Wheel_rr
   m_TagString: Untagged
@@ -384,6 +427,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 6df34ee591500634282ce8431bcb6976, type: 3}
+--- !u!114 &1144484704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 1, y: 0, z: 0}
 --- !u!1 &194810
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +454,8 @@ GameObject:
   - component: {fileID: 8512502436440746565}
   - component: {fileID: 154436177}
   - component: {fileID: 154436178}
+  - component: {fileID: 852770683}
+  - component: {fileID: 852770684}
   m_Layer: 0
   m_Name: Veh_Car_Blue_Z
   m_TagString: Untagged
@@ -517,6 +575,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   translate: {x: 0, y: 0, z: -1}
+--- !u!114 &852770683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371310c582c8966458ad2ce85d3de124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  translate: {x: 0, y: 0, z: -1}
+--- !u!114 &852770684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe5026ae1c022f4287274b339bcadb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointGame: {fileID: 0}
+  _audio: {fileID: 8300000, guid: a3b2e3df5fa6b6b42b9c7f3e151381f5, type: 3}
+  value: -10
+  _IsObstaculo: 1
+  _Colectable: {fileID: 194810}
 --- !u!1 &6399623105327882833
 GameObject:
   m_ObjectHideFlags: 0

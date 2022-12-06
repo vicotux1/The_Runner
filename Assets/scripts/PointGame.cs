@@ -6,15 +6,17 @@ using UnityEngine.UI;
 public class PointGame : MonoBehaviour{
 
     public Text PointText, Ganaste_text;
+    public GameObject _restart;
     public string Ganaste= "Ganaste!!!", Perdiste="Perdiste";
     public int _points;
     public AudioClip ganaste_Audio,perdiste_Audio;
     
     AudioSource audioSource;
 
-    private void Start() {
+    private void Awake() {
         Ganaste_text.text="";
         audioSource=GetComponent<AudioSource>();
+        Update_Colectables(_points);
     }
 
     public void SoundFX(AudioClip Audio) {
@@ -26,6 +28,7 @@ public class PointGame : MonoBehaviour{
         SoundFX(perdiste_Audio);
         Update_Colectables(_points);
         Time.timeScale = 0;
+        _restart.SetActive(true);
     }
     public void Score(int value) {
         _points=_points+ value;
@@ -34,10 +37,5 @@ public class PointGame : MonoBehaviour{
 
     public void Update_Colectables(int value){
         PointText.text ="Score: "+ value.ToString();
-        /*if(_colectables==_total_Items){
-        Ganaste_text.text=Ganaste;
-        SoundFX(ganaste_Audio);
-        Time.timeScale = 0;
-        }*/
     }
 }

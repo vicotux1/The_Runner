@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3311878}
   - component: {fileID: 2374846}
   - component: {fileID: 53165407}
+  - component: {fileID: 2808538960174432529}
   m_Layer: 0
   m_Name: Wheel_fl
   m_TagString: Untagged
@@ -96,6 +97,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 93b9de2c4710d6b4e9ac38987a064d42, type: 3}
+--- !u!114 &2808538960174432529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 2, y: 0, z: 0}
 --- !u!1 &104122
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +256,7 @@ GameObject:
   - component: {fileID: 3383528}
   - component: {fileID: 2331378}
   - component: {fileID: 1877536999}
+  - component: {fileID: 1387566134532200689}
   m_Layer: 0
   m_Name: Wheel_fr
   m_TagString: Untagged
@@ -326,6 +341,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 93b9de2c4710d6b4e9ac38987a064d42, type: 3}
+--- !u!114 &1387566134532200689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 2, y: 0, z: 0}
 --- !u!1 &121858
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +366,7 @@ GameObject:
   - component: {fileID: 3367306}
   - component: {fileID: 2320804}
   - component: {fileID: 1788622503}
+  - component: {fileID: 6795187328136120910}
   m_Layer: 0
   m_Name: Wheel_rl
   m_TagString: Untagged
@@ -422,6 +451,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 93b9de2c4710d6b4e9ac38987a064d42, type: 3}
+--- !u!114 &6795187328136120910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 2, y: 0, z: 0}
 --- !u!1 &128516
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +654,7 @@ GameObject:
   - component: {fileID: 3387278}
   - component: {fileID: 2333458}
   - component: {fileID: 2051993904}
+  - component: {fileID: 4978026782024837240}
   m_Layer: 0
   m_Name: Wheel_rr
   m_TagString: Untagged
@@ -696,6 +739,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 93b9de2c4710d6b4e9ac38987a064d42, type: 3}
+--- !u!114 &4978026782024837240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e238a8553c1d304d9cd95def41d65d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rotation: {x: 2, y: 0, z: 0}
 --- !u!1 &2063097444833629351
 GameObject:
   m_ObjectHideFlags: 0
